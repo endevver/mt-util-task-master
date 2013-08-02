@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!perl
 
 package MT::TaskMaster;
 
@@ -8,7 +8,7 @@ use warnings;
 use lib qw( lib extlib );
 use base qw( MT::Tool );
 
-my $VERSION = '1.0';
+my $VERSION = '1.0.1';
 
 use MT::Task;
 use MT::Session;
